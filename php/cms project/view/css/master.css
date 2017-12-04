@@ -1,0 +1,16 @@
+/*All the css files get loaded in here*/
+@import url('login.css');
+
+/*End of loading files*/
+/*font import*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+/*End font import*/
+
+body {
+  background-color:#f6f6f6;
+  font-size:16px;
+  line-height:24px;
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}

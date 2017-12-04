@@ -1,0 +1,27 @@
+main.login-main {
+  display:flex;
+  height:100vh;
+  align-items: center;
+}
+
+section.login-section {
+  width:450px;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+}
+
+h2.section-login-header {
+  flex:1;
+}
+
+input.section-login-input {
+  flex:1;
+  border:0px;
+  margin:21px 0px 21px 0px;
+  height:21px;
+}
+
+input.section-login-input:focus {
+  
+}

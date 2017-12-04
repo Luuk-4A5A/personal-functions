@@ -1,0 +1,64 @@
+main.main {
+  padding:3px 2px;
+  width:750px;
+  margin:0 auto;
+  height:auto;
+  border:solid #E8E8E8 2px;
+  border-top:black solid 3px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+
+div.main-buttons {
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+div.main-buttons > button {
+  margin:0 2px;
+  background-color:#fff;
+  border-radius:3px;
+  font-size:20px;
+  border:none;
+  padding:7.5px 12.5px;
+  position: relative;
+}
+
+div.main-buttons > button.dropdown {padding:0px;}
+div.main-buttons > button.dropdown > i {margin:10px 15px 10px 10px;}
+div.main-buttons > button.dropdown:after {
+  height:0;
+  width:0;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #222222;
+  right: 3px;
+  top: 17px;
+  content: "";
+}
+
+div.main-buttons > button:focus {outline:none;}
+div.main-buttons > button:hover {background-color:#E8E8E8;cursor:pointer;}
+
+main.main-content {
+  padding:3px 2px;
+  width:750px;
+  margin:0 auto;
+  height:auto;
+  border-left: solid #E8E8E8 2px;
+  border-right: solid #E8E8E8 2px;
+  border-bottom:solid #E8E8E8 2px;
+}
+
+main.main-content > div.wrapper-content > div.content {padding:10px;}
+main.main-content > div.wrapper-content div.content {min-height:160px;}
+main.main-content > div.wrapper-content > div.content:focus {outline:none;}
+main.main-content > div.wrapper-content > div.content > p {
+    margin: 0px 0px 10px 0px;
+}
+
+.selected > i, .selected > i {
+  color:#1e88e5;
+}
